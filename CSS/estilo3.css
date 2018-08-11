@@ -1,0 +1,5 @@
+form#interfaz > span, input{
+	display: inline-block;
+	font-family: gotham; color: black;
+	font-size: 1.2em;
+} 
