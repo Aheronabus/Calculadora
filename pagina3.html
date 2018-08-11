@@ -10,7 +10,14 @@
 	<form action="#" id="interfaz">
 		<span>Numero 1: </span><input type="text" id="num1"><br>
 		<span>Numero 2: </span><input type="text" id="num2"><br>
-		<input type="button" value="Enviar" onclick="sumar(this.form)">
+		<select name="operaciones" id="operaciones">
+			<option selected value="default">Operacion</option>
+			<option value="sumar">+</option>
+			<option value="restar">-</option>
+			<option value="multiplicar">*</option>
+			<option value="dividir">/</option>
+		</select>
+		<input type="button" value="Enviar" onclick="operar(this.form)">
 		<hr>
 		<strong>Resultado: <span id="resultado"></span></strong>
 	</form>
