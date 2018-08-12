@@ -1,4 +1,4 @@
-function añadirNodo(operacion,numeros){
+	function añadirNodo(operacion,numeros){
 
 	//Determinacion operacion
 
