@@ -10,7 +10,10 @@
 	<div id="calculadora">
 		<section id="zonapantalla">
 			
-			<div id="pantalla">
+			<div id="pantallaDigitos">
+				
+			</div>
+			<div id="pantallaResultados">
 				
 			</div>
 
@@ -22,40 +25,40 @@
 			<div id="numeros">
 				<table id="botonesnumeros">	
 					<tr>
-						<td>7</td>
-						<td>8</td>
-						<td>9</td>
+						<td onclick="submit(7)">7</td>
+						<td onclick="submit(8)">8</td>
+						<td onclick="submit(9)">9</td>
 					</tr>
 					<tr>
-						<td>4</td>
-						<td>5</td>
-						<td>6</td>
+						<td onclick="submit(4)">4</td>
+						<td onclick="submit(5)">5</td>
+						<td onclick="submit(6)">6</td>
 					</tr>
 					<tr>
-						<td>1</td>
-						<td>2</td>
-						<td>3</td>
+						<td onclick="submit(1)">1</td>
+						<td onclick="submit(2)">2</td>
+						<td onclick="submit(3)">3</td>
 					</tr>
 					<tr>
-						<td>.</td>
-						<td>0</td>
-						<td>=</td>
+						<td onclick="submit('.')">.</td>
+						<td onclick="submit(0)">0</td>
+						<td onclick="submit('=')">=</td>
 					</tr>
 				</table>
 			</div>
 			<div id="operaciones">
 				<table id="botonesoperaciones">	
 					<tr>
-						<td>C</td>
-						<td><</td>
+						<td onclick="submit('c')">C</td>
+						<td onclick="submit('<')"><</td>
 					</tr>
 					<tr>
-						<td>+</td>
-						<td>-</td>
+						<td onclick="submit('+')">+</td>
+						<td onclick="submit('-')">-</td>
 					</tr>
 					<tr>
-						<td>*</td>
-						<td>/</td>
+						<td onclick="submit('*')">*</td>
+						<td onclick="submit('/')">/</td>
 					</tr>
 				</table>
 			</div>

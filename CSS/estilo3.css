@@ -30,11 +30,20 @@ body, html{
 	padding-top: 5%;
 }
 
-#pantalla{
+#pantallaDigitos{
 	width: 90%;
-	height: 100%;
+	height: 48%;
 	background-color: white;
 	margin: auto;	
+	text-align: right;
+}
+
+#pantallaResultados{
+	width: 90%;
+	height: 48%;
+	background-color: white;
+	margin: auto;
+	text-align: right;
 }
 
 #zonabotones{
